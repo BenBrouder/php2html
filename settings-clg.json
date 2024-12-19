@@ -1,0 +1,31 @@
+{
+  "source": "..\\chalets-lesgets.com",
+  "destination": "chalets-lesgets.com-staticHTML",
+  "quietMode": true,
+  "ignoreConversionDirPatterns": [
+    "includes",
+    "iframes",
+    "fr\\includes",
+    "ee\\includes",
+    "prices\\data",
+    "contact\\vendor",
+    "node_modules"
+  ],
+  "ignoreConversionFilePatterns": [
+    "contact\\anyContactFormProcessor.php",
+    "contact\\Exception.php",
+    "contact\\OAuth.php",
+    "contact\\PHPMailer.php",
+    "contact\\SMTP.php"
+  ],
+  "ignoreDirPatterns": [
+    ".git",
+    ".vscode"
+  ],
+  "ignoreFilePatterns": [
+    ".gitignore",
+    "customPath-git-ignore.php",
+    "desktop.ini"
+  ],
+  "phpPath": "php.exe"
+}

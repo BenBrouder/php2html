@@ -1,0 +1,18 @@
+{
+  "source": "..\\luxurychaletsmeribel.co.uk",
+  "destination": "luxurychaletsmeribel.co.uk-staticHTML",
+  "quietMode": true,
+  "ignoreConversionDirPatterns": ["includes", "prices", "contact\\vendor",
+    "node_modules"],
+  "ignoreConversionFilePatterns": [
+    "404.php",
+    "contact\\anyContactFormProcessor.php",
+    "contact\\Exception.php",
+    "contact\\OAuth.php",
+    "contact\\PHPMailer.php",
+    "contact\\SMTP.php"
+  ],
+  "ignoreDirPatterns": [".git", ".vscode"],
+  "ignoreFilePatterns": [".gitignore", "desktop.ini"],
+  "phpPath": "php.exe"
+}

@@ -1,0 +1,30 @@
+{
+  "source": "..\\myirelandtour.com",
+  "destination": "myirelandtour.com-staticHTML",
+  "quietMode": true,
+  "ignoreConversionDirPatterns": [
+    "includes",
+    "contact\\vendor",
+    "node_modules"
+  ],
+  "ignoreConversionFilePatterns": [
+    "contact\\anyContactFormProcessor.php",
+    "contact\\Exception.php",
+    "contact\\OAuth.php",
+    "contact\\PHPMailer.php",
+    "contact\\SMTP.php",
+    "booking\\booking-form.php",
+    "index-dan.php"
+  ],
+  "ignoreDirPatterns": [
+    ".git",
+    ".vscode",
+    "not-to-convert-to-html"
+  ],
+  "ignoreFilePatterns": [
+    ".gitignore",
+    "customPath-git-ignore.php",
+    "desktop.ini"
+  ],
+  "phpPath": "php.exe"
+}

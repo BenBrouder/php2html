@@ -1,0 +1,26 @@
+{
+  "source": "..\\purevolt.ie",
+  "destination": "purevolt.ie-staticHTML",
+  "quietMode": true,
+  "ignoreConversionDirPatterns": ["includes", "contact\\vendor", "templates",  "node_modules"],
+  "ignoreConversionFilePatterns": [
+    "contact\\anyContactFormProcessor.php",
+    "contact\\Exception.php",
+    "contact\\OAuth.php",
+    "contact\\PHPMailer.php",
+    "contact\\SMTP.php",
+    "quick-quote.php"
+    
+  ],
+  "ignoreDirPatterns": [
+    ".git",
+    ".vscode"
+  ],
+  "ignoreFilePatterns": [
+    ".gitignore",
+    "customPath-git-ignore.php",
+    "desktop.ini",
+    "test-dan.php"
+  ],
+  "phpPath": "php.exe"
+}
